@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		935AB05B198D95A2004FF34A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AB05A198D95A2004FF34A /* AppDelegate.swift */; };
+		935AB05D198D95A2004FF34A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AB05C198D95A2004FF34A /* ViewController.swift */; };
+		935AB060198D95A2004FF34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AB05E198D95A2004FF34A /* Main.storyboard */; };
+		935AB062198D95A2004FF34A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935AB061198D95A2004FF34A /* Images.xcassets */; };
+		935AB06E198D95A2004FF34A /* Bernie_BucketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AB06D198D95A2004FF34A /* Bernie_BucketTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		935AB068198D95A2004FF34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 935AB04D198D95A2004FF34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 935AB054198D95A2004FF34A;
+			remoteInfo = Bernie_Bucket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		935AB055198D95A2004FF34A /* Bernie_Bucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bernie_Bucket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		935AB059198D95A2004FF34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935AB05A198D95A2004FF34A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		935AB05C198D95A2004FF34A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		935AB05F198D95A2004FF34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		935AB061198D95A2004FF34A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		935AB067198D95A2004FF34A /* Bernie_BucketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bernie_BucketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		935AB06C198D95A2004FF34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935AB06D198D95A2004FF34A /* Bernie_BucketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bernie_BucketTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		935AB052198D95A2004FF34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935AB064198D95A2004FF34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		935AB04C198D95A2004FF34A = {
+			isa = PBXGroup;
+			children = (
+				935AB057198D95A2004FF34A /* Bernie_Bucket */,
+				935AB06A198D95A2004FF34A /* Bernie_BucketTests */,
+				935AB056198D95A2004FF34A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		935AB056198D95A2004FF34A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				935AB055198D95A2004FF34A /* Bernie_Bucket.app */,
+				935AB067198D95A2004FF34A /* Bernie_BucketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		935AB057198D95A2004FF34A /* Bernie_Bucket */ = {
+			isa = PBXGroup;
+			children = (
+				935AB05A198D95A2004FF34A /* AppDelegate.swift */,
+				935AB05C198D95A2004FF34A /* ViewController.swift */,
+				935AB05E198D95A2004FF34A /* Main.storyboard */,
+				935AB061198D95A2004FF34A /* Images.xcassets */,
+				935AB058198D95A2004FF34A /* Supporting Files */,
+			);
+			path = Bernie_Bucket;
+			sourceTree = "<group>";
+		};
+		935AB058198D95A2004FF34A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				935AB059198D95A2004FF34A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		935AB06A198D95A2004FF34A /* Bernie_BucketTests */ = {
+			isa = PBXGroup;
+			children = (
+				935AB06D198D95A2004FF34A /* Bernie_BucketTests.swift */,
+				935AB06B198D95A2004FF34A /* Supporting Files */,
+			);
+			path = Bernie_BucketTests;
+			sourceTree = "<group>";
+		};
+		935AB06B198D95A2004FF34A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				935AB06C198D95A2004FF34A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		935AB054198D95A2004FF34A /* Bernie_Bucket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935AB071198D95A2004FF34A /* Build configuration list for PBXNativeTarget "Bernie_Bucket" */;
+			buildPhases = (
+				935AB051198D95A2004FF34A /* Sources */,
+				935AB052198D95A2004FF34A /* Frameworks */,
+				935AB053198D95A2004FF34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bernie_Bucket;
+			productName = Bernie_Bucket;
+			productReference = 935AB055198D95A2004FF34A /* Bernie_Bucket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		935AB066198D95A2004FF34A /* Bernie_BucketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935AB074198D95A2004FF34A /* Build configuration list for PBXNativeTarget "Bernie_BucketTests" */;
+			buildPhases = (
+				935AB063198D95A2004FF34A /* Sources */,
+				935AB064198D95A2004FF34A /* Frameworks */,
+				935AB065198D95A2004FF34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				935AB069198D95A2004FF34A /* PBXTargetDependency */,
+			);
+			name = Bernie_BucketTests;
+			productName = Bernie_BucketTests;
+			productReference = 935AB067198D95A2004FF34A /* Bernie_BucketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		935AB04D198D95A2004FF34A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Vik;
+				TargetAttributes = {
+					935AB054198D95A2004FF34A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					935AB066198D95A2004FF34A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 935AB054198D95A2004FF34A;
+					};
+				};
+			};
+			buildConfigurationList = 935AB050198D95A2004FF34A /* Build configuration list for PBXProject "Bernie_Bucket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 935AB04C198D95A2004FF34A;
+			productRefGroup = 935AB056198D95A2004FF34A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				935AB054198D95A2004FF34A /* Bernie_Bucket */,
+				935AB066198D95A2004FF34A /* Bernie_BucketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		935AB053198D95A2004FF34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935AB060198D95A2004FF34A /* Main.storyboard in Resources */,
+				935AB062198D95A2004FF34A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935AB065198D95A2004FF34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		935AB051198D95A2004FF34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935AB05D198D95A2004FF34A /* ViewController.swift in Sources */,
+				935AB05B198D95A2004FF34A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935AB063198D95A2004FF34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935AB06E198D95A2004FF34A /* Bernie_BucketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		935AB069198D95A2004FF34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 935AB054198D95A2004FF34A /* Bernie_Bucket */;
+			targetProxy = 935AB068198D95A2004FF34A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		935AB05E198D95A2004FF34A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				935AB05F198D95A2004FF34A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		935AB06F198D95A2004FF34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		935AB070198D95A2004FF34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		935AB072198D95A2004FF34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Bernie_Bucket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		935AB073198D95A2004FF34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Bernie_Bucket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		935AB075198D95A2004FF34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bernie_Bucket.app/Bernie_Bucket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Bernie_BucketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		935AB076198D95A2004FF34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bernie_Bucket.app/Bernie_Bucket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Bernie_BucketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		935AB050198D95A2004FF34A /* Build configuration list for PBXProject "Bernie_Bucket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935AB06F198D95A2004FF34A /* Debug */,
+				935AB070198D95A2004FF34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		935AB071198D95A2004FF34A /* Build configuration list for PBXNativeTarget "Bernie_Bucket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935AB072198D95A2004FF34A /* Debug */,
+				935AB073198D95A2004FF34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		935AB074198D95A2004FF34A /* Build configuration list for PBXNativeTarget "Bernie_BucketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935AB075198D95A2004FF34A /* Debug */,
+				935AB076198D95A2004FF34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 935AB04D198D95A2004FF34A /* Project object */;
+}
